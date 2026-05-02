@@ -25,9 +25,59 @@
   </nav>
 
   <main class="container">
-    <section class="card">
-      <h1>Game</h1>
-      <p>The JavaScript game will be added in a later step.</p>
+    <section class="card game-card">
+      <h1>Rock Paper Scissors</h1>
+      <p>
+        Choose rock, paper, or scissors and play against the computer. This small
+        JavaScript game was added as an interactive part of my portfolio website.
+      </p>
+
+      <div class="rps-scoreboard" aria-label="Game score">
+        <div class="score-item">
+          <span>Player</span>
+          <strong id="player-score">0</strong>
+        </div>
+        <div class="score-item">
+          <span>Computer</span>
+          <strong id="computer-score">0</strong>
+        </div>
+      </div>
+
+      <div class="rps-arena">
+        <div class="rps-panel">
+          <p class="rps-label">You</p>
+          <p id="player-symbol" class="rps-hand-symbol" aria-hidden="true">?</p>
+          <p id="player-choice" class="rps-choice-value">-</p>
+        </div>
+
+        <div class="rps-vs" aria-hidden="true">VS</div>
+
+        <div class="rps-panel rps-panel-computer" id="computer-panel">
+          <div class="rps-orbit" aria-hidden="true"></div>
+          <p class="rps-label">Computer</p>
+          <p id="computer-symbol" class="rps-hand-symbol" aria-hidden="true">?</p>
+          <p id="computer-choice" class="rps-choice-value">-</p>
+        </div>
+      </div>
+
+      <p class="rps-result" id="round-result">Make your move!</p>
+
+      <div class="rps-actions" aria-label="Game choices">
+        <button type="button" class="rps-btn" data-choice="Rock">
+          <span class="rps-emoji" aria-hidden="true">✊</span>
+          <span>Rock</span>
+        </button>
+        <button type="button" class="rps-btn" data-choice="Paper">
+          <span class="rps-emoji" aria-hidden="true">✋</span>
+          <span>Paper</span>
+        </button>
+        <button type="button" class="rps-btn" data-choice="Scissors">
+          <span class="rps-emoji" aria-hidden="true">✌️</span>
+          <span>Scissors</span>
+        </button>
+      </div>
+
+      <button type="button" class="rps-reset-btn" id="reset-score">Reset Score</button>
     </section>
   </main>
 
