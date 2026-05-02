@@ -10,3 +10,8 @@ Step 1 completed:
 - Starter stylesheet and JavaScript files
 
 More pages and content will be added in upcoming steps.
+
+## Design Inspiration
+
+The current visual style is inspired by this FreeCodeCamp guide:
+https://www.freecodecamp.org/news/build-a-simple-portfolio-website-with-html-and-css/

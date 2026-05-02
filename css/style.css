@@ -161,6 +161,22 @@ main {
   font-size: 0.95rem;
 }
 
+.project-video-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #1d4ed8;
+  background-color: #eaf2ff;
+  border: 1px solid #c9ddff;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.project-video-link:hover {
+  background-color: #dce9ff;
+}
+
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
