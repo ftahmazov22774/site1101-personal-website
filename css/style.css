@@ -137,6 +137,22 @@ main {
   line-height: 1.3;
 }
 
+.contact-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #1e40af;
+  background-color: #eaf2ff;
+  border: 1px solid #c9ddff;
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  background-color: #dce9ff;
+}
+
 .projects-grid {
   display: grid;
   gap: 1.5rem;
