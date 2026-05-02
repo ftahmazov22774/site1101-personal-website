@@ -16,7 +16,12 @@ body {
 }
 
 .site-header {
-  background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+  background:
+    linear-gradient(
+      rgba(10, 20, 38, 0.8),
+      rgba(10, 20, 38, 0.84)
+    ),
+    url("../images/ada-campus-hero.jpg") center/cover no-repeat;
   color: #ffffff;
   min-height: 44vh;
   padding: 4rem 0 3rem;
@@ -485,6 +490,7 @@ main {
   .site-header {
     min-height: 36vh;
     padding: 2.75rem 0 2rem;
+    background-position: center;
   }
 
   .nav-links {

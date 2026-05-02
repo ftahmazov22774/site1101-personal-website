@@ -36,7 +36,7 @@ This project is a personal portfolio website created for SITE 1101. It presents 
 The website design was inspired by a simple personal portfolio layout from freeCodeCamp:
 https://www.freecodecamp.org/news/build-a-simple-portfolio-website-with-html-and-css/
 
-I liked that reference because it uses a clear portfolio structure: a dark hero/header area, simple navigation, centered student identity, clean content sections, and easy-to-read project blocks. I used this idea in my website by creating a dark top section, simple navigation menu, white content cards, rounded project sections, and a clean footer with useful profile links. I did not copy the design exactly; I used it as inspiration and adjusted it for my own SITE 1101 portfolio.
+I liked that reference because it has a dark hero/header area with a background image, a simple centered personal identity section, clean navigation, and a readable portfolio layout. I used the same idea in my website, but changed the background to an ADA University campus image to make it more personal. I also added a dark blue overlay to keep the text readable and match the navy color theme. I did not copy the design exactly; I adapted it for my own SITE 1101 portfolio.
 
 ## 8. AI Usage
 Cursor AI was used during development for planning, code suggestions, debugging, layout improvement, and content review. The website was developed step by step with human review and edits.
