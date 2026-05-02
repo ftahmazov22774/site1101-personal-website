@@ -63,6 +63,74 @@ main {
   margin-bottom: 1rem;
 }
 
+.card h1,
+.card h2 {
+  margin-top: 0;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.project-meta {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.project-gallery figure {
+  margin: 0;
+  background-color: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-gallery img {
+  width: 100%;
+  height: auto;
+  max-height: 260px;
+  display: block;
+  object-fit: contain;
+}
+
+.project-gallery figcaption {
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #475569;
+}
+
+.project-placeholder {
+  margin-top: 1rem;
+  padding: 2rem;
+  border: 1px dashed #94a3b8;
+  border-radius: 8px;
+  text-align: center;
+  color: #64748b;
+  background-color: #f8fafc;
+}
+
 .site-footer {
   background-color: #0f172a;
   color: #ffffff;
@@ -71,6 +139,16 @@ main {
 
 .site-footer p {
   margin: 0.35rem 0;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 640px) {
